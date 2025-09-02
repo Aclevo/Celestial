@@ -39,7 +39,7 @@ done
 
 trap 'rm -rf "${ROOTPATH_TMP}"' EXIT
 ROOTPATH_TMP="bin/build/buildroot-fs/rootfs.iso9660.tmp"
-#cp pkgs/x86_64/enlightenment-x86_64.tar.gz $ROOTPATH_TMP/
+cp -r binary/packages/x86_64/* $ROOTPATH_TMP/
 rm -rf "${GENIMAGE_TMP}"
 
 genimage \
