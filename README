@@ -1,26 +1,12 @@
-Buildroot is a simple, efficient and easy-to-use tool to generate embedded
-Linux systems through cross-compilation.
+**This is the official base source code of Celestial Linux**
+It uses buildroot-2025.02.5.
 
-The documentation can be found in docs/manual. You can generate a text
-document with 'make manual-text' and read output/docs/manual/manual.text.
-Online documentation can be found at http://buildroot.org/docs.html
+To build, install gcc, g++, and make to build from source.
 
-To build and use the buildroot stuff, do the following:
+in the command line, navigate to the buildroot folder, and run:
 
-1) run 'make menuconfig'
-2) select the target architecture and the packages you wish to compile
-3) run 'make'
-4) wait while it compiles
-5) find the kernel, bootloader, root filesystem, etc. in output/images
+'''
+make menuconfig
+'''
 
-You do not need to be root to build or run buildroot.  Have fun!
-
-Buildroot comes with a basic configuration for a number of boards. Run
-'make list-defconfigs' to view the list of provided configurations.
-
-Please feed suggestions, bug reports, insults, and bribes back to the
-buildroot mailing list: buildroot@buildroot.org
-You can also find us on #buildroot on OFTC IRC.
-
-If you would like to contribute patches, please read
-https://buildroot.org/manual.html#submitting-patches
+This will allow you to play around with the base system before you build it. We recommend you save a working version before adding/subtraction features.
