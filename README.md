@@ -15,7 +15,7 @@ then run
 make
 '''
 
-after this you will have an ISO image in bin/images, which you can use to run with QEMU or any othwr hypervisor
+after this you will have an ISO image in bin/images, which you can use to run Celestial with QEMU, Virtualbox or any other hypervisor that you like
 
 '''
 qemu-system-x86_64 \
