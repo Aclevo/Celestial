@@ -1,6 +1,7 @@
 config BR2_PACKAGE_DPKG
 	bool "dpkg"
 	depends on BR2_PACKAGE_GLIBC
+	depends on BR2_PACKAGE_GLIBC_UTILS
 	select BR2_PACKAGE_TAR
 	select BR2_PACKAGE_LIBSELINUX
 	select BR2_PACKAGE_LIBMD

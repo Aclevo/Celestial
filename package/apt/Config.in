@@ -1,5 +1,6 @@
 config BR2_PACKAGE_APT
 	bool "apt"
+	depends on BR2_PACKAGE_GNUPG_GPGV
 	depends on BR2_PACKAGE_OPENSSL
 	depends on BR2_PACKAGE_XXHASH
 	depends on BR2_PACKAGE_LZ4
