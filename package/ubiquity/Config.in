@@ -1,0 +1,7 @@
+config BR2_PACKAGE_UBIQUITY
+	bool "ubiquity"
+	select BR2_PACKAGE_GOBJECT_INTROSPECTION
+	select BR2_PACKAGE_PYTHON3 
+	select BR2_PACKAGE_HOST_QEMU_SYSTEM_MODE
+	help
+		default ubuntu installer
