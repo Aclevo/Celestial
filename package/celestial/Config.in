@@ -1,4 +1,0 @@
-config BR2_PACKAGE_CELESTIAL_INSTALLER
-	bool "Celestial installer"
-	help
-	 Celestial linux installer

@@ -1,9 +1,0 @@
-
-deb [trusted=yes] http://deb.debian.org/debian/ trixie main non-free-firmware
-deb-src [trusted=yes] http://deb.debian.org/debian/ trixie main non-free-firmware
-
-#deb [trusted=yes] http://security.debian.org/debian-security trixie-security main non-free-firmware
-#deb-src [trusted=yes] http://security.debian.org/debian-security trixie-security main non-free-firmware
-
-deb [trusted=yes] http://deb.debian.org/debian/ trixie-updates main non-free-firmware
-deb-src [trusted=yes] http://deb.debian.org/debian/ trixie-updates main non-free-firmware
