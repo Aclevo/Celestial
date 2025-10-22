@@ -1,3 +1,5 @@
+![logo](https://github.com/Aclevo/Celestial/blob/main/assets/png/Celestial-side.png)
+
 **This is the official base source code of Celestial Linux by Aclevo**
 It uses buildroot-2025.02.5.
 
