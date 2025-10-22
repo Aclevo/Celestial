@@ -1,0 +1,204 @@
+#Title: Audio/video
+#Section: Video players
+#Description: vlc
+#Description: mpv
+vlc
+vlc-plugin-notify
+vlc-plugin-jack
+vlc-plugin-samba
+vlc-plugin-skins2
+vlc-plugin-video-splitter
+vlc-plugin-visualization
+vlc-plugin-video-output
+vlc-plugin-base
+vlc-plugin-qt
+mpv
+#Alt: freetuxtv
+#Alt: gnome-dvb-client
+#Alt: gnome-mpv
+#Alt: kodi
+#Alt: parole
+#Alt: smplayer
+#Alt: subdownloader
+#Alt: totem
+#Alt: totem-plugins
+#Alt: vlc-plugin-svg
+#Alt: celluloid
+#Alt: vlc-plugin-bittorrent
+#Alt: mpv-mpris
+#Alt: libdvd-pkg
+
+#Section: Music players/library managers
+#Description: quodlibet
+quodlibet
+exfalso
+libgpod-common
+libgpod4
+sox
+#Alt: gnome-music
+#Alt: rhythmbox
+#Alt: rhythmbox-plugins
+#Alt: clementine
+#Alt: audacious
+#Alt: audacious-plugins
+#Alt: sayonara
+#Alt: projectm-pulseaudio
+#Alt: mpd
+#Alt: sonata
+#Alt: ario
+#Alt: cantata
+#Alt: ncmpcpp
+#Alt: mpc
+#Alt: moc
+#Alt: cmus
+#Alt: moc-ffmpeg-plugin
+#Alt: mpg123
+#Alt: beets
+#Alt: easytag
+#Alt: puddletag
+#Alt: eyed3
+#Alt: kid3
+#Alt: picard
+#Alt: mussort
+#Alt: vagalume
+#Alt: gpodder
+#Alt: go-mtpfs
+#Alt: gtkpod
+#Alt: playerctl
+#Alt: streamtuner2
+#cowbell # sid only
+#amberol # sid only
+#mousai # sid only
+
+#Section: Webcam
+#Description: cheese
+cheese
+gnome-video-effects
+#Alt: guvcview
+#Alt: gnome-video-effects-frei0r
+#Alt: v4l2loopback-dkms
+#Alt: v4l2loopback-utils
+#Alt: kamoso
+#Alt: zoneminder
+#Alt: pinhole
+#Alt: megapixels
+#snapshot # sid only
+#cam2ip # sid only
+
+#Section: Screen recording/screencasting
+#Description: vokoscreen-ng
+#Description: obs-studio
+vokoscreen-ng
+#Alt: obs-studio
+#Alt: kazam
+#Alt: byzanz
+#Alt: obs-source-clone
+#Alt: simplescreenrecorder
+#Alt: obs-ashmanix-countdown
+#Alt: obs-advanced-scene-switcher
+#Alt: obs-cli
+#Alt: obs-gradient-source
+#Alt: obs-move-transition
+#Alt: obs-plugins
+#Alt: obs-scene-collection-manager
+#Alt: obs-scene-notes-dock
+#Alt: obs-source-clone
+#Alt: obs-source-copy
+#Alt: obs-transition-table
+#obs-command-source # experimental only
+#obs-ptz # sid only
+#obs-scene-tree-view # experimental only
+#obs-scene-as-transition # sid only
+#obs-scene-tree-view # sid only
+#obs-3d-effect # sid only
+#obs-color-monitor # sid only
+#obs-time-source # sid only
+#kooha # sid only
+
+#Section: Media conversion/codecs
+#Description: qwinff
+qwinff
+ffmpeg
+flac
+gstreamer1.0-alsa
+gstreamer1.0-libav
+gstreamer1.0-plugins-bad
+gstreamer1.0-plugins-base
+gstreamer1.0-plugins-good
+gstreamer1.0-plugins-ugly
+gstreamer1.0-pulseaudio
+gstreamer1.0-tools
+gstreamer1.0-x
+lame
+libmp3lame0
+libxvidcore4
+musepack-tools
+mediainfo
+media-player-info
+#Alt: handbrake
+#Alt: mp3splt
+#Alt: oggvideotools
+#Alt: soundconverter
+#Alt: winff
+#Alt: winff-doc
+#Alt: winff-qt
+#Alt: x264
+#Alt: x265
+#Alt: qhimdtransfer
+#Alt: minidisc-utils
+#Alt: mat2
+#Alt: metadata-cleaner
+#Alt: ffmpegfs
+#ogmrip # sid only
+#ogmrip-plugins # sid only
+
+#Section: Audio CD extraction
+##Description: asunder
+#Alt: asunder
+#Alt: sound-juicer
+#Alt: goobox
+#Alt: ripperx
+#Alt: xcfa
+#cyanrip: # sid only
+
+#Section: Subtitles
+#Alt: subliminal
+#Alt: subtitleeditor
+#Alt: gaupol
+#Alt: gnome-subtitles
+
+#Section: Audio recording/editing
+#Description: audacity
+#Description: gnome-sound-recorder
+audacity
+gnome-sound-recorder
+#Alt: gwc
+#Alt: gjacktransport
+
+##Section: Lighting
+#Alt: qlcplus
+
+
+#Section: Audio system
+#Description: pulseaudio
+pavucontrol
+pulseaudio
+pulseaudio-utils
+pulseaudio-module-bluetooth
+pulseaudio-module-lirc
+#Alt: pulseaudio-module-zeroconf
+pulseaudio-module-jack
+kmod
+alsa-oss
+alsa-tools
+alsa-utils
+libasound2-plugins
+oss-compat
+alsa-firmware-loaders
+rtkit
+#Alt: pasystray
+#Alt: paprefs
+#Alt: pnmixer
+#Alt: pamix
+#Alt: pulseaudio-equalizer
+#Alt: libasound2-plugin-equal
