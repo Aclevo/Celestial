@@ -1,8 +1,0 @@
-config BR2_PACKAGE_HOST_TRIEHASH
-	bool "triehash"
-	select BR2_PACKAGE_PERL
-	help
-	 Generator for order-preserving minimal
-	 perfect hash functions in C
-	 
-	 https://jak-linux.org/projects/triehash

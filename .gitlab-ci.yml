@@ -1,33 +1,9 @@
-# Configuration for Gitlab-CI.
-# Builds appear on https://gitlab.com/buildroot.org/buildroot/pipelines
+image: debian:bookworm
 
-image: $CI_REGISTRY/buildroot.org/buildroot/base:20250218.2110
-
-stages:
-  - generate-gitlab-ci
-  - build
-
-generate-gitlab-ci-yml:
-  stage: generate-gitlab-ci
-  script: ./support/scripts/generate-gitlab-ci-yml support/misc/gitlab-ci.yml.in > generated-gitlab-ci.yml
-  retry:
-    max: 2
-    when:
-      - runner_system_failure
-      - stuck_or_timeout_failure
-  artifacts:
-    when: always
-    paths:
-      - generated-gitlab-ci.yml
-      - br-test-pkg/*/.config
-      - br-test-pkg/*/missing.config
-
-buildroot-pipeline:
-  stage: build
-  trigger:
-    include:
-      - artifact: generated-gitlab-ci.yml
-        job: generate-gitlab-ci-yml
-    strategy: depend
-  variables:
-    PARENT_PIPELINE_ID: $CI_PIPELINE_ID
+build:
+  script:
+  - apt update && apt install --no-install-recommends -y make wget ca-certificates
+  - make download_extra
+  interruptible: true
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "schedule"

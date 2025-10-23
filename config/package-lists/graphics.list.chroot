@@ -1,0 +1,166 @@
+#Title: Graphics
+
+#Section: Image viewers and managers
+#Description: ristretto
+ristretto
+#Alt: eog
+#Alt: eog-plugins
+#Alt: viewnior
+#Alt: pqiv
+#Alt: qiv
+#Alt: feh
+#Alt: mcomix
+#Alt: gpicview
+#Alt: mirage
+#Alt: xzgv
+#Alt: sxiv
+#Alt: catimg
+#Alt: shotwell
+#Alt: gthumb
+#Alt: digikam
+#Alt: fotoxx
+#Alt: geeqie
+#nomacs # sid only
+#loupe # sid only
+
+#Section: Image editors
+#Description: gimp
+gimp
+gimp-data-extras
+gimp-plugin-registry
+gimp-texturize
+gimp-gutenprint
+gimp-lensfun
+create-resources
+#Alt: gimp-help-fr
+#Alt: krita
+#Alt: gimp-gmic
+#Alt: drawing
+#Alt: mypaint
+#Alt: mtpaint
+#Alt: xpaint
+#Alt: gnome-paint
+#Alt: multimedia-animation
+#pinta # sid only
+
+#Section: Vector editors
+##Description: inkscape
+#Alt: inkscape
+#Alt: create-resources
+#Alt: pstoedit
+#Alt: pencil2d
+#Alt: dia
+#Alt: birdfont
+
+#Section: Drawing
+#Description: xournal
+xournal
+#Alt: akira
+#Alt: xournalpp
+
+#Section: Non-destructive editors (lightroom)
+#Alt: darktable
+#Alt: rawtherapee
+#Alt: luminance-hdr
+
+#Section: Color pickers
+#Alt: gcolor3
+#Alt: gpick
+
+#Section: Batch image processing
+#Alt: aspic
+#Alt: pixelize
+#Alt: hugin
+#Alt: aaphoto
+
+#Section: Camera upload/management
+#Alt: rapid-photo-downloader
+#Alt: gtkam
+
+
+#Section: Game asset editors
+#Alt: tiled
+#Alt: games-content-dev
+
+#Section: Color grading
+#Alt: colorhug-client
+
+#Section: Diagram editors
+#Description: dia
+dia
+dia-shapes
+gsfonts-x11 
+
+#Section: Label/barcode editors
+##Screenshot: glabels
+#Alt: glabels
+#Alt: qrencode
+#Alt: qtqr
+#Alt: zbar-tools
+#Alt: zint-qt
+#Alt: qrterminal
+
+#Section: 3D editors
+##Description: blender
+#Alt: blender
+#Alt: g3dviewer
+#Alt: sweethome3d
+#Alt: sweethome3d-furniture
+#Alt: sweethome3d-furniture-editor
+#Alt: sweethome3d-textures-editor
+#Alt: sweethome3d-furniture-nonfree
+
+#Section: CAD editors
+#Alt: librecad
+#Alt: kicad
+#Alt: freecad
+#Alt: pcb-gtk
+#Alt: qelectrotech
+
+#Section: Video editors
+#Alt: openshot-qt
+#Alt: kdenlive
+#Alt: devede
+#Alt: dvdauthor
+#Alt: imagination
+#Alt: screenkey
+#Alt: dvgrab
+#Alt: vgrabbj
+#Alt: dvbcut
+#Alt: multimedia-video
+#Alt: flowblade
+#Alt: handbrake
+#Alt: rtmpdump
+#Alt: tsdecrypt
+#Alt: videotrans
+#Alt: voctomix
+#Alt: stopmotion
+#Alt: education-video
+#Alt: auto-editor
+#ffdiaporama # bullseye only
+#lives # sid only
+#shotdetect # sid only
+#slowmovideo # bullseye only
+#gnome-video-trimmer # sid only
+
+#Section: Command-line image manipulation
+imagemagick
+optipng
+jpegoptim
+exifprobe
+librsvg2-bin
+#Alt: figlet
+#Alt: toilet
+#Alt: converseen
+#Alt: findimagedupes
+#Alt: pngcrush
+#Alt: fbi
+#Alt: gifsicle
+#Alt: jp2a
+#Alt: pecomato
+#Alt: aview
+#Alt: chafa
+#Alt: lolcat
+#Alt: advancecomp
+#Alt: caca-utils
+#Alt: timg

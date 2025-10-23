@@ -1,0 +1,371 @@
+#Title: Internet and network
+
+#Section: Web browsers
+#Description: firefox-esr
+firefox-esr
+firefox-esr-l10n-fr
+webext-ublock-origin-firefox
+webext-keepassxc-browser
+#Alt: luakit
+#Alt: chromium
+#Alt: nss-passwords
+#Alt: w3m
+#Alt: links2
+#Alt: surf
+#Alt: elinks
+#pkg-mozilla-archive-keyring # sid only
+#midori # bullseye only
+
+#Section: Instant messaging
+##Description: pidgin
+#Alt: pidgin
+#Alt: pidgin-otr
+#Alt: libpurple-bin
+#Alt: purple-rocketchat
+#Alt: purple-discord
+#Alt: purple-xmpp-http-upload
+#Alt: purple-xmpp-carbons
+#Alt: pidgin-plugin-pack
+#Alt: pidgin-extprefs
+#Alt: pidgin-gnome-keyring
+#Alt: purple-lurch
+#Alt: finch
+#Alt: jami
+#Alt: telegram-desktop
+#Alt: telegram-send
+#Alt: pidgin-skype
+#Alt: dino-im
+#Alt: gajim
+#Alt: mcabber
+#Alt: weechat
+#Alt: purple-mm-sms
+#Alt: purple-xmpp-http-upload
+#empathy # bullseye only
+#smuxi # sid only
+
+#Section: VoIP/videoconference
+#Description: mumble
+mumble
+#Alt: jami
+#Alt: linphone
+
+
+#Section: Mail clients
+#Description: thunderbird
+thunderbird
+thunderbird-l10n-fr
+#Alt: geary
+#Alt: claws-mail
+#Alt: claws-mail-plugins
+#Alt: mailnag
+#Alt: mutt
+#Alt: alpine
+#Alt: getmail6
+#Alt: evolution
+#Alt: evolution-plugins
+#Alt: offlineimap
+#evolution-rss # bullseye only
+
+#Section: File transfer and synchronization
+rsync
+#Alt: nextcloud-desktop
+#Alt: nextcloud-desktop-cmd
+#Alt: lftp
+#Alt: unison-gtk
+#Alt: rclone
+#Alt: rclone-browser
+#Alt: git-annex
+#Alt: nautilus-dropbox
+#Alt: syncthing
+#Alt: seafile-cli
+#Alt: seafile-daemon
+#Alt: seafile-gui
+#Alt: grsync
+#Alt: filezilla
+#Alt: gftp
+#Alt: pastebinit
+#Alt: onionshare-cli
+#Alt: owncloud-client
+#sparkleshare # sid only
+#warp # sid only
+#wormhole-rs # sid only
+
+#Section: Bittorrent
+#Description: transmission-gtk
+transmission-gtk
+transmission-cli
+#Alt: qbittorrent
+#Alt: deluge-gtk
+#Alt: deluge-console
+#Alt: deluge-web
+#Alt: transmission-daemon
+#Alt: transmission-remote-gtk
+#Alt: uget
+#Alt: aria2
+#Alt: rtorrent
+#Alt: btfs
+#amule # sid only
+#amule-gnome-support # sid only
+#fragments # sid only
+
+#Section: Media download
+#Description: yt-dlp
+yt-dlp
+#Alt: streamlink
+#Alt: minitube
+#Alt: smtube
+#video-downloaded # sid only
+
+#Section: Downloaders/web crawlers
+#Description: kiwix
+curl
+wget
+#Alt: kiwix
+#Alt: kiwix-tools
+#Alt: aria2
+#Alt: zim-tools
+#Alt: httrack
+#Alt: axel
+#Alt: wike
+#plowshare # bullseye only
+#gdown # sid only
+
+#Section: Feed readers
+##Description: liferea
+#Alt: liferea
+#Alt: newsboat
+#Alt: gnome-feeds
+#Alt: quiterss
+#Alt: tickr
+#feedreader # sid only
+
+#Section: LAN file sharing
+#Alt: samba
+#Alt: samba-vfs-modules 
+#Alt: smbclient
+#Alt: servefile
+#smbc # sid only
+
+#Section: Network management
+#Description: network-manager-gnome
+network-manager-gnome
+network-manager-openvpn-gnome
+wireguard
+dnsmasq-base
+hostname
+bridge-utils
+ethtool
+iw
+wpasupplicant
+#Alt: connman
+#Alt: connman-ui
+#Alt: cmst
+#Alt: wpagui
+#Alt: network-manager-ssh
+#Alt: efax-gtk
+#Alt: avahi-daemon
+#Alt: libnss-mdns
+#Alt: avahi-autoipd
+#Alt: avahi-dnsconfd
+#Alt: avahi-discover
+#Alt: avahi-ui-utils
+#wicd # experimental only
+#wicd-curses # experimental only
+#wicd-cli # experimental only
+#wicd-gtk # experimental only
+#wicd-daemon # experimental only
+
+#Section: Cellphone and modem support
+#Alt: modemmanager
+#Alt: modem-manager-gui
+#Alt: mobile-broadband-provider-info
+#Alt: usb-modeswitch
+#Alt: kdeconnect
+#Alt: fdroidcl
+#gnome-phone-manager # bullseye only
+#scrcpy # sid only
+#scrcpy-server # sid only
+
+#Section: Wireless
+#Description: blueman
+blueman
+bluetooth
+blueman
+wireless-regdb
+#Alt: gnome-bluetooth
+#Alt: gnome-user-share
+#Alt: ganyremote
+#Alt: hostapd
+#Alt: aircrack-ng
+#Alt: btscanner
+#zeek # sid only
+
+#Section: Firewall
+#Description: gufw
+ufw
+gufw
+iptables
+#Alt: ferm
+#Alt: iptables-persistent
+#Alt: firehol
+#Alt: fail2ban
+#Alt: ipset-persistent
+#Alt: crowdsec
+#Alt: opensnitch
+
+#Section: Network diagnostic/monitoring
+#Description: gnome-nettool
+gnome-nettool
+traceroute
+dnsutils
+#Alt: dnsmasq
+#Alt: dns-root-data
+#Alt: arpwatch
+#Alt: bwm-ng
+#Alt: darkstat
+#Alt: ddupdate
+#Alt: driftnet
+#Alt: dsniff
+#Alt: fping
+#Alt: httpry
+#Alt: ifstat
+#Alt: iftop
+#Alt: ipcalc
+#Alt: ipcalc-ng
+#Alt: sipcalc
+#Alt: ipv6calc
+#Alt: subnetcalc
+#Alt: iperf
+#Alt: iptraf-ng
+#Alt: ngrep
+#Alt: p0f
+#Alt: pktstat
+#Alt: jmeter
+#Alt: jnettop
+#Alt: logstalgia
+#Alt: macchanger
+#Alt: mitmproxy
+#Alt: mtr
+#Alt: natpmpc
+#Alt: nethogs
+#Alt: bmon
+#Alt: netmask
+#Alt: nmon
+#Alt: prips
+#Alt: slurm
+#Alt: socat
+#Alt: speedometer
+#Alt: speedtest-cli
+#Alt: sslsniff
+#Alt: tcpdump
+#Alt: dhcpdump
+#Alt: tcpstat
+#Alt: tcptrack
+#Alt: thc-ipv6
+#Alt: trickle
+#Alt: tshark
+#Alt: usbip
+#Alt: vnstat
+#Alt: vnstati
+#Alt: wireshark
+#Alt: termshark
+#Alt: fierce
+#Alt: sslscan
+#Alt: dropwatch
+#Alt: notus-scanner
+#Alt: sublist3r
+#Alt: sockperf
+#ntopng # sid only
+#ripcalc # sid only
+#gping # sid only
+#sploitscan # sid only
+
+#Section: SSH
+#Alt: sshuttle
+#Alt: sshfs
+#Alt: pssh
+#Alt: putty-tools
+#Alt: autossh
+#Alt: endlessh
+
+#Section: Remote access/desktop clients
+#Alt: remmina
+#Alt: remmina-plugin-rdp
+#Alt: remmina-plugin-vnc
+#Alt: vinagre
+#Alt: weevely
+#Alt: x2goclient
+#remmina-plugin-nx # sid only
+#remmina-plugin-spice # sid only
+#remmina-plugin-xdmcp # sid only
+
+#Section: SSH
+#Description: openssh-server
+openssh-server
+openssh-client
+#Alt: barrier
+#Alt: xpra
+#Alt: lightdm-remote-session-x2go
+#Alt: x2godesktopsharing
+#Alt: x2goserver
+#Alt: x2goserver-desktopsharing
+#Alt: x2goserver-extensions
+#Alt: x2goserver-x2goagent
+#Alt: x2goserver-xsession
+#Alt: x2goserver-printing
+#Alt: tinysshd
+#Alt: vino
+
+#Section: Load testing
+#Alt: siege
+#Alt: tsung
+
+#Section: Scanners
+#Alt: nmap
+#Alt: nikto
+#Alt: zmap
+#Alt: sqlmap
+#Alt: themole
+#Alt: arp-scan
+#Alt: arping
+#Alt: whatweb
+#Alt: knockpy
+#Alt: spectre-meltdown-checker
+#Alt: ndiff
+#Alt: masscan
+#Alt: pompem
+#Alt: dirb
+#Alt: dhcpig
+#Alt: wafw00f
+#Alt: smbmap
+#Alt: wig
+#Alt: reaver
+#Alt: bully
+#Alt: hydra
+#Alt: hydra-gtk
+#Alt: ophcrack
+#Alt: hashcat
+#Alt: hashcat-data
+#Alt: mdk3
+#Alt: dnsmap
+#Alt: dnsenum
+#Alt: prads
+#Alt: dirsearch
+#Alt: aws-nuke
+#Alt: firewalk
+#Alt: urlextractor
+#assetfinded # sid only
+
+#Section: Tor
+#Alt: tor-geoipdb
+#Alt: tor
+#Alt: torsocks
+#Alt: torbrowser-launcher
+
+#Section: GeoIP databases
+#Alt: geoip-bin
+#Alt: geoip-database
+
+#Section: Out-of-band management
+#Alt: ipmitool
+#Alt: gwakeonlan
