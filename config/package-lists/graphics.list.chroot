@@ -27,10 +27,9 @@ ristretto
 #Description: gimp
 gimp
 gimp-data-extras
-gimp-plugin-registry
 gimp-texturize
-gimp-gutenprint
-gimp-lensfun
+#gimp-gutenprint
+#gimp-lensfun
 create-resources
 #Alt: gimp-help-fr
 #Alt: krita

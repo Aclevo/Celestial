@@ -15,7 +15,7 @@ gnome-packagekit
 gnome-package-updater
 packagekit
 packagekit-tools
-software-properties-gtk
+#software-properties-gtk bookworm
 synaptic
 unattended-upgrades
 vrms
@@ -160,7 +160,7 @@ localepurge
 #Description: gnome-system-log
 #Screenshot: gnome-system-log
 #Screenshot: lnav
-gnome-system-log
+#gnome-system-log bookworm
 lnav
 colortail
 #Alt: gnome-logs
@@ -279,7 +279,7 @@ xserver-xorg-input-elographics
 xserver-xorg-input-joystick
 xserver-xorg-input-kbd
 xserver-xorg-input-mouse
-xserver-xorg-input-mutouch
+#xserver-xorg-input-mutouch
 xserver-xorg-input-multitouch
 xserver-xorg-input-synaptics
 xserver-xorg-video-all
