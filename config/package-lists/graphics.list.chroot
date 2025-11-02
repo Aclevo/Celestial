@@ -25,12 +25,12 @@ ristretto
 
 #Section: Image editors
 #Description: gimp
-gimp
-gimp-data-extras
-gimp-texturize
+#gimp		##uncomment this line if you consider it useful to be pre-installed
+#gimp-data-extras
+#gimp-texturize
 #gimp-gutenprint
 #gimp-lensfun
-create-resources
+#create-resources
 #Alt: gimp-help-fr
 #Alt: krita
 #Alt: gimp-gmic

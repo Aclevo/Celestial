@@ -8,8 +8,8 @@ gvfs-fuse
 jdupes
 libgphoto2-l10n
 libmtp-runtime
-plocate
-#mlocate bookworm
+#plocate trixie
+mlocate
 ooo-thumbnailer
 rename
 secure-delete
@@ -48,7 +48,6 @@ catfish
 #fsearch # sid only
 
 #Section: Desktop environment
-enlightenment
 #Description: xfce4
 #xfdesktop4
 #xfwm4
@@ -116,8 +115,8 @@ gnupg2
 pwgen
 cryptsetup
 cryptsetup-initramfs
-libblockdev-crypto3
-#libblockdev-crypto2 bookworm
+#libblockdev-crypto3 trixie
+libblockdev-crypto2
 #Alt: keepassx
 #Alt: keepass2
 #Alt: qtpass
@@ -260,7 +259,7 @@ acpi-support-base
 fancontrol
 rfkill
 #linux-cpupower
-#cpufrequtils bookworm
+cpufrequtils
 pm-utils
 #Alt: laptop-mode-tools
 #Alt: powerdebug
@@ -329,8 +328,8 @@ gtk2-engines-murrine
 gtk2-engines-pixbuf
 xdg-user-dirs-gtk
 libfile-mimeinfo-perl
-mate-polkit
-#policykit-1-gnome bookworm
+#mate-polkit
+policykit-1-gnome
 #Alt: zenity
 #Alt: conky-all
 #Alt: randtype
