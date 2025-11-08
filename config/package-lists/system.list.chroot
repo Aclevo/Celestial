@@ -47,7 +47,7 @@ command-not-found
 
 #Section: Task management/monitoring
 #Description: xfce4-taskmanager
-xfce4-taskmanager
+#xfce4-taskmanager
 htop
 iotop
 lm-sensors
@@ -173,16 +173,16 @@ colortail
 
 #Section: Virtualization
 #Description: virt-manager
-virt-manager
-virtinst
-virt-viewer
+#virt-manager
+#virtinst
+#virt-viewer
 ebtables
 dnsmasq-base
-libvirt-daemon-system
+#libvirt-daemon-system
 gir1.2-spiceclientgtk-3.0
-qemu-system-x86
-qemu-system-arm
-qemu-utils
+#qemu-system-x86
+#qemu-system-arm
+#qemu-utils
 libguestfs-tools
 virt-p2v
 libguestfs-rsync
@@ -214,13 +214,13 @@ netcat-openbsd
 #Alt: ansible
 
 #Section: Java
-default-jre
+#default-jre
 
 #Section: Display manager/screen locker
 #Description: lightdm
-lightdm
-lightdm-gtk-greeter
-light-locker
+#lightdm
+#lightdm-gtk-greeter
+#light-locker
 #Alt: accountsservice
 #Alt: slim
 #Alt: gdm3
