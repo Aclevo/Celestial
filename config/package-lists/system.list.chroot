@@ -15,7 +15,7 @@ gnome-packagekit
 gnome-package-updater
 packagekit
 packagekit-tools
-#software-properties-gtk bookworm
+software-properties-gtk
 synaptic
 unattended-upgrades
 vrms
@@ -47,7 +47,7 @@ command-not-found
 
 #Section: Task management/monitoring
 #Description: xfce4-taskmanager
-xfce4-taskmanager
+#xfce4-taskmanager
 htop
 iotop
 lm-sensors
@@ -160,7 +160,7 @@ localepurge
 #Description: gnome-system-log
 #Screenshot: gnome-system-log
 #Screenshot: lnav
-#gnome-system-log bookworm
+gnome-system-log
 lnav
 colortail
 #Alt: gnome-logs
@@ -173,16 +173,16 @@ colortail
 
 #Section: Virtualization
 #Description: virt-manager
-virt-manager
-virtinst
-virt-viewer
+#virt-manager
+#virtinst
+#virt-viewer
 ebtables
 dnsmasq-base
-libvirt-daemon-system
+#libvirt-daemon-system
 gir1.2-spiceclientgtk-3.0
-qemu-system-x86
-qemu-system-arm
-qemu-utils
+#qemu-system-x86
+#qemu-system-arm
+#qemu-utils
 libguestfs-tools
 virt-p2v
 libguestfs-rsync
@@ -214,13 +214,13 @@ netcat-openbsd
 #Alt: ansible
 
 #Section: Java
-default-jre
+#default-jre
 
 #Section: Display manager/screen locker
 #Description: lightdm
-lightdm
-lightdm-gtk-greeter
-light-locker
+#lightdm
+#lightdm-gtk-greeter
+#light-locker
 #Alt: accountsservice
 #Alt: slim
 #Alt: gdm3
@@ -279,7 +279,7 @@ xserver-xorg-input-elographics
 xserver-xorg-input-joystick
 xserver-xorg-input-kbd
 xserver-xorg-input-mouse
-#xserver-xorg-input-mutouch
+xserver-xorg-input-mutouch
 xserver-xorg-input-multitouch
 xserver-xorg-input-synaptics
 xserver-xorg-video-all

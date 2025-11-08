@@ -2,16 +2,16 @@
 #Section: Video players
 #Description: vlc
 #Description: mpv
-vlc
-vlc-plugin-notify
-vlc-plugin-jack
-vlc-plugin-samba
-vlc-plugin-skins2
-vlc-plugin-video-splitter
-vlc-plugin-visualization
-vlc-plugin-video-output
-vlc-plugin-base
-vlc-plugin-qt
+#vlc
+#vlc-plugin-notify
+#vlc-plugin-jack
+#vlc-plugin-samba
+#vlc-plugin-skins2
+#vlc-plugin-video-splitter
+#vlc-plugin-visualization
+#vlc-plugin-video-output
+#vlc-plugin-base
+#vlc-plugin-qt
 mpv
 #Alt: freetuxtv
 #Alt: gnome-dvb-client
@@ -189,7 +189,7 @@ pulseaudio-module-lirc
 #Alt: pulseaudio-module-zeroconf
 pulseaudio-module-jack
 kmod
-#alsa-oss
+alsa-oss
 alsa-tools
 alsa-utils
 libasound2-plugins
