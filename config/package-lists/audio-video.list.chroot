@@ -120,13 +120,13 @@ vokoscreen-ng
 qwinff
 ffmpeg
 flac
-gstreamer1.0-alsa
+#gstreamer1.0-alsa
 gstreamer1.0-libav
 gstreamer1.0-plugins-bad
 gstreamer1.0-plugins-base
 gstreamer1.0-plugins-good
 gstreamer1.0-plugins-ugly
-gstreamer1.0-pulseaudio
+#gstreamer1.0-pulseaudio
 gstreamer1.0-tools
 gstreamer1.0-x
 lame
@@ -182,16 +182,16 @@ gnome-sound-recorder
 #Section: Audio system
 #Description: pulseaudio
 pavucontrol
-pulseaudio
-pulseaudio-utils
-pulseaudio-module-bluetooth
-pulseaudio-module-lirc
+#pulseaudio
+#pulseaudio-utils
+#pulseaudio-module-bluetooth
+#pulseaudio-module-lirc
 #Alt: pulseaudio-module-zeroconf
-pulseaudio-module-jack
+#pulseaudio-module-jack
 kmod
-alsa-oss
-alsa-tools
-alsa-utils
+#alsa-oss
+#alsa-tools
+#alsa-utils
 libasound2-plugins
 oss-compat
 alsa-firmware-loaders
