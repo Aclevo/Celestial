@@ -50,6 +50,7 @@ catfish
 #Section: Desktop environment
 #Description: xfce4
 #xfdesktop4
+gnome
 #xfwm4
 #xfce4-session
 #xfce4-notifyd
