@@ -2,20 +2,19 @@
 #Section: Video players
 #Description: vlc
 #Description: mpv
-#vlc
-#vlc-plugin-notify
-#vlc-plugin-jack
-#vlc-plugin-samba
-#vlc-plugin-skins2
-#vlc-plugin-video-splitter
-#vlc-plugin-visualization
-#vlc-plugin-video-output
-#vlc-plugin-base
-#vlc-plugin-qt
+vlc
+vlc-plugin-notify
+vlc-plugin-jack
+vlc-plugin-samba
+vlc-plugin-skins2
+vlc-plugin-video-splitter
+vlc-plugin-visualization
+vlc-plugin-video-output
+vlc-plugin-base
+vlc-plugin-qt
 mpv
+mpv-mpris
 #Alt: freetuxtv
-#Alt: gnome-dvb-client
-#Alt: gnome-mpv
 #Alt: kodi
 #Alt: parole
 #Alt: smplayer
@@ -27,13 +26,14 @@ mpv
 #Alt: vlc-plugin-bittorrent
 #Alt: mpv-mpris
 #Alt: libdvd-pkg
+#gnome-dvb-client # bookworm only
+#gnome-mpv # bookworm only
 
 #Section: Music players/library managers
 #Description: quodlibet
 quodlibet
 exfalso
 libgpod-common
-libgpod4
 sox
 #Alt: gnome-music
 #Alt: rhythmbox
@@ -63,12 +63,13 @@ sox
 #Alt: vagalume
 #Alt: gpodder
 #Alt: go-mtpfs
-#Alt: gtkpod
 #Alt: playerctl
 #Alt: streamtuner2
 #cowbell # sid only
 #amberol # sid only
 #mousai # sid only
+#libgpod4 # bookworm only
+#gtkpod # bookworm only
 
 #Section: Webcam
 #Description: cheese
@@ -80,10 +81,10 @@ gnome-video-effects
 #Alt: v4l2loopback-utils
 #Alt: kamoso
 #Alt: zoneminder
-#Alt: pinhole
 #Alt: megapixels
 #snapshot # sid only
 #cam2ip # sid only
+#pinhole # bookworm only
 
 #Section: Screen recording/screencasting
 #Description: vokoscreen-ng
@@ -120,13 +121,13 @@ vokoscreen-ng
 qwinff
 ffmpeg
 flac
-#gstreamer1.0-alsa
+gstreamer1.0-alsa
 gstreamer1.0-libav
 gstreamer1.0-plugins-bad
 gstreamer1.0-plugins-base
 gstreamer1.0-plugins-good
 gstreamer1.0-plugins-ugly
-#gstreamer1.0-pulseaudio
+gstreamer1.0-pulseaudio
 gstreamer1.0-tools
 gstreamer1.0-x
 lame
@@ -165,33 +166,31 @@ media-player-info
 #Alt: subliminal
 #Alt: subtitleeditor
 #Alt: gaupol
-#Alt: gnome-subtitles
+#gnome-subtitles # bookworm only
 
 #Section: Audio recording/editing
 #Description: audacity
 #Description: gnome-sound-recorder
 audacity
 gnome-sound-recorder
-#Alt: gwc
 #Alt: gjacktransport
+#gwc # bookworm only
 
 ##Section: Lighting
 #Alt: qlcplus
 
-
 #Section: Audio system
 #Description: pulseaudio
 pavucontrol
-#pulseaudio
-#pulseaudio-utils
-#pulseaudio-module-bluetooth
-#pulseaudio-module-lirc
+pulseaudio
+pulseaudio-utils
+pulseaudio-module-bluetooth
+pulseaudio-module-lirc
 #Alt: pulseaudio-module-zeroconf
-#pulseaudio-module-jack
+pulseaudio-module-jack
 kmod
-#alsa-oss
-#alsa-tools
-#alsa-utils
+alsa-tools
+alsa-utils
 libasound2-plugins
 oss-compat
 alsa-firmware-loaders
@@ -202,3 +201,5 @@ rtkit
 #Alt: pamix
 #Alt: pulseaudio-equalizer
 #Alt: libasound2-plugin-equal
+#Alt: alsa-scarlett-gui
+#alsa-oss # bookworm only

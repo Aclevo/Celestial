@@ -15,5 +15,3 @@ for service in $enabled_services; do
 	systemctl enable "$service".service || true
 	systemctl start "$service".service || true
 done
-
-
