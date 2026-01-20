@@ -14,8 +14,8 @@ download_extra:
 
 .PHONY: install_buildenv # install packages required to build the image
 install_buildenv:
+	mkdir config/packages.chroot/
 	sudo apt -y install live-build make build-essential wget git unzip colordiff apt-transport-https rename ovmf rsync python3-venv gnupg
-
 ##############################
 
 .PHONY: clean # clear all caches, only required when changing the mirrors/architecture config
