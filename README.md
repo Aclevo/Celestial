@@ -5,7 +5,7 @@ The documentation on configuring this project can be found here: https://debian-
 ## Building from source
 --------------------------
 To build from source you need to have the debian installed,root privilages and cosmic-epoch debian package installed in `config/packages.chroot`.The package can be found [here](https://gofile.io/d/ABXzTl). After getting everything you need, run:<br/>
-`dpkg-name config/packages.chroot/cosmic-epoch-1.0.2.deb`
+`dpkg-name config/packages.chroot/cosmic-epoch-1.0.2.deb`<br/>
 `sudo apt install -y make`<br/>
 `sudo make install_buildenv`<br/>
 `sudo lb config`<br/>
