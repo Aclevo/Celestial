@@ -1,26 +1,27 @@
 #Title: System
 
 #Section: Package management
-#Description: gnome-packagekit
-#Description: synaptic
+#Description: gnome-software
+#Screenshot: gnome-software
+gnome-software
+gnome-software-plugin-flatpak
+gnome-software-plugin-deb
+gnome-software-plugin-fwupd
 apt-listchanges
 apt-transport-https
 aptitude
 debconf-utils
 debian-archive-keyring
 debian-keyring
-debsecan
 debsums
-gnome-packagekit
-gnome-package-updater
 packagekit
 packagekit-tools
-software-properties-gtk
-synaptic
 unattended-upgrades
 vrms
 command-not-found
+#Alt: gnome-packagekit
 #Alt: gnome-package-updater
+#Alt: synaptic
 #Alt: debfoster
 #Alt: appstream-generator
 #Alt: apt-config-auto-update
@@ -29,10 +30,8 @@ command-not-found
 #Alt: apt-listbugs
 #Alt: aptitude-doc-fr
 #Alt: debian-security-support
-#Alt: deborphan
+#Alt: debsecan
 #Alt: debtree
-#Alt: gnome-software
-#Alt: gnome-software-plugin-flatpak
 #Alt: gstreamer1.0-packagekit
 #Alt: needrestart
 #Alt: packagekit-command-not-found
@@ -42,8 +41,9 @@ command-not-found
 #Alt: reportbug
 #Alt: nala
 #Alt: gdebi
-#gnome-software-plugin-deb # sid only
-#ngome-software-plugin-fwupd # sid only
+#gnome-package-updater # bookworm only
+#software-properties-gtk # bookworm only
+#deborphan # bookworm only
 
 #Section: Task management/monitoring
 #Description: xfce4-taskmanager
@@ -67,7 +67,6 @@ memtest86+
 #Alt: bonnie++
 #Alt: x86info
 #Alt: memtester
-#Alt: dstat
 #Alt: sysstat
 #Alt: cacti
 #Alt: hwloc
@@ -76,10 +75,11 @@ memtest86+
 #Alt: cpu-x
 #Alt: i7z
 #Alt: glances
-#Alt: sysdig
 #Alt: btop
 #Alt: bpytop
 #screentest # buster only
+#dstat # bookworm only
+#sysdig # bookworm only
 
 #Section: Backup
 #Screenshot: deja-dup
@@ -154,13 +154,14 @@ testdisk
 #Section: File cleaners/linters
 #Description: bleachbit
 bleachbit
-localepurge
+#Alt: localepurge
+#Alt: czkawka-gui
 
 #Section: Log viewers
-#Description: gnome-system-log
-#Screenshot: gnome-system-log
+#Description: gnome-logs
+#Screenshot: gnome-logs
 #Screenshot: lnav
-gnome-system-log
+gnome-logs
 lnav
 colortail
 #Alt: gnome-logs
@@ -170,12 +171,13 @@ colortail
 #Alt: multitail
 #Alt: logswan
 #tailspin # sid only
+#nerdlog # sid only
 
 #Section: Virtualization
 #Description: virt-manager
 #virt-manager
-#virtinst
-#virt-viewer
+virtinst
+virt-viewer
 ebtables
 dnsmasq-base
 #libvirt-daemon-system
@@ -184,7 +186,7 @@ gir1.2-spiceclientgtk-3.0
 #qemu-system-arm
 #qemu-utils
 libguestfs-tools
-virt-p2v
+#virt-p2v
 libguestfs-rsync
 libguestfs-rescue
 netcat-openbsd
@@ -214,13 +216,13 @@ netcat-openbsd
 #Alt: ansible
 
 #Section: Java
-#default-jre
+default-jre
 
 #Section: Display manager/screen locker
 #Description: lightdm
-#lightdm
-#lightdm-gtk-greeter
-#light-locker
+lightdm
+lightdm-gtk-greeter
+light-locker
 #Alt: accountsservice
 #Alt: slim
 #Alt: gdm3
@@ -258,7 +260,7 @@ sudo
 
 #Section: Time
 chrony
-#Alt: ntp
+#Alt: ntpsec
 
 #Section: Display
 mesa-utils
@@ -274,12 +276,9 @@ xfonts-100dpi
 xserver-xorg
 xserver-xorg-input-all
 xserver-xorg-input-wacom
-xserver-xorg-input-aiptek
-xserver-xorg-input-elographics
 xserver-xorg-input-joystick
 xserver-xorg-input-kbd
 xserver-xorg-input-mouse
-xserver-xorg-input-mutouch
 xserver-xorg-input-multitouch
 xserver-xorg-input-synaptics
 xserver-xorg-video-all
@@ -291,12 +290,7 @@ hwdata
 #corctrl # sid only
 
 #Section: Kernel/boot/init
-#if ARCHITECTURES amd64
 linux-headers-amd64
-#endif
-#if ARCHITECTURES i386
-linux-headers-686:i386
-#endif
 module-assistant
 dkms
 build-essential
@@ -330,11 +324,11 @@ broadcom-sta-common
 #Section: Hardware-specific packages
 #Alt: driverctl
 #Alt: pommed
-#Alt: lomoco
-#Alt: wmgui
 #Alt: mbpfan
 #Alt: usbmuxd
 #Alt: fprintd
+#lomoco # bookworm only
+#wmgui # bookworm only
 
 #Section: Live system components
 live-boot

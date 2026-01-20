@@ -23,14 +23,6 @@ download_extra: clean
 	$(WGET) https://nodiscc.gitlab.io/toolbox/pool/main/b/bleachbit-cleanerml/bleachbit-cleanerml_0.0.1~git0+5bc2961_all.deb
 	cp cache/downloads/bleachbit-cleanerml_0.0.1~git0+5bc2961_all.deb config/packages.chroot/
 
-	# DISABLED https://github.com/yt-dlp/yt-dlp (available in stable-backports)
-	#$(WGET) https://nodiscc.gitlab.io/toolbox/pool/main/y/yt-dlp/yt-dlp_2022.01.21_amd64.deb
-	#cp cache/downloads/yt-dlp_2022.01.21_amd64.deb config/packages.chroot/
-
-	# DISABLED https://github.com/EionRobb/pidgin-opensteamworks/
-	#$(WGET) https://nodiscc.gitlab.io/toolbox/pool/main/p/pidgin-opensteamworks/pidgin-opensteamworks_1.7-1_amd64.deb
-	#cp cache/downloads/pidgin-opensteamworks_1.7-1_amd64.deb config/packages.chroot/
-
 	# DISABLED https://github.com/axcore/tartube
 	#$(WGET) https://nodiscc.gitlab.io/toolbox/pool/main/t/tartube/python3-tartube_2.4.260.deb
 	#cp cache/downloads/python3-tartube_2.4.260.deb config/packages.chroot/
@@ -45,9 +37,9 @@ download_extra: clean
 	# EXTRA https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/
 	$(WGET) https://addons.mozilla.org/firefox/downloads/file/3711829/cookie_autodelete-3.6.0-an+fx.xpi -O config/includes.chroot/usr/lib/mozilla/extensions/{ec8030f7-c20a-464f-9b0e-13a3a9e97384}/CookieAutoDelete@kennydo.com.xpi
 
-	# EXTRA https://addons.thunderbird.net/thunderbird/addon/gmail-conversation-view/
-	mkdir -p config/includes.chroot/usr/lib/thunderbird/extensions/
-	$(WGET) https://addons.thunderbird.net/thunderbird/downloads/latest/gmail-conversation-view/addon-54035-latest.xpi -O config/includes.chroot/usr/lib/thunderbird/extensions/gconversation@xulforum.org.xpi
+	# EXTRA https://addons.thunderbird.net/thunderbird/addon/gmail-conversation-view/ (disabled, HTTP 403)
+	#mkdir -p config/includes.chroot/usr/lib/thunderbird/extensions/
+	#$(WGET) https://addons.thunderbird.net/thunderbird/downloads/latest/gmail-conversation-view/addon-54035-latest.xpi -O config/includes.chroot/usr/lib/thunderbird/extensions/gconversation@xulforum.org.xpi
 
 	# DISABLED https://signal.org/
 	# RFP https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=842943

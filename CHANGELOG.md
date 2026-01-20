@@ -7,11 +7,16 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
 ### Added
 
+* packages: system: add support for [flatpak](https://flathub.org/) software installation method
 * firmware: add out-of-the-box support for some Broadcom wireless cards
 
 ### Changed
 
+* system: replace [gnome-packagekit](https://packages.debian.org/trixie/gnome-packagekit) with [gnome-software](https://packages.debian.org/trixie/gnome-software) as main graphical package management/update tool
+* utility: replace [file-roller](https://packages.debian.org/trixie/file-roller) with [engrampa](https://packages.debian.org/trixie/engrampa) as archive manager
 * power management: replace [laptop-mode-tools](https://packages.debian.org/bookworm/laptop-mode-tools) with [tlp](https://packages.debian.org/bookworm/tlp)
+* desktop/xfwm4: disable zooming with Alt+mouse wheel by default
+* desktop/xfce4-panel: panel height to 32 px and enable the dark theme
 * extras: update user.js to v0.13.0
   * Don't expire cookies when the browser is closed
   * Enable Global Privacy Control preference
@@ -19,17 +24,24 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
   * No longer disable the built-in PDF viewer by default
   * Fix infinite loop on Cloudflare proection pages (turnstile)
 * desktop: switch default theme to Yaru-blue
+* desktop: use new "Ceratopsian" theme background by default
+* build tools improvements
 
 ### Fixed
 
-* fix sshd failing to start
-* fix gnome-calculator failing to start (disable currency rates download)
+* fix ssh daemon startup failures
+* fix gnome-calculator startup failures by disabling currency rates download
+* desktop/xfwm4: fix/enable automatic tiling of windows when moved to the edge of the screen
+* installer: fix question about `/etc/default/grub` interrupting unattended installation
 
 ### Removed
 
-* audio/video: remove libdvd-pkg (DVD-Video playing library)
-* desktop/xfwm4: fix/enable automatic tiling of windows when moved to the edge of the screen
-* utility: remove gcolor3 color picker (does not work)
+* packages: system: remove [localepurge](https://packages.debian.org/trixie/localepurge
+* packages: system: remove [debsecan](https://packages.debian.org/trixie/debsecan)
+* packages: system: remove [synaptic](https://packages.debian.org/trixie/synaptic)
+* packages: audio/video: remove [libdvd-pkg](https://packages.debian.org/trixie/libdvd-pkg)
+* packages: utility: remove [gcolor3](https://packages.debian.org/trixie/gcolor3) color picker (does not work)
+* drop incomplete support for 32-bit builds
 
 ---------------------
 
